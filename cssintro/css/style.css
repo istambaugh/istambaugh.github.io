@@ -1,0 +1,25 @@
+body {
+    background-color: rgb(235, 202, 159);
+}
+
+.nav {
+    list-style-type: none;
+    background-color: rgb(250, 125, 125);
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+
+/*means this will affect any list items that are in an unordered list with class name nav*/
+
+ul.nav li {
+    float: left;
+}
+
+ul.nav li a {
+    display: block;
+    padding: 8px 16px;
+    color: black;
+    text-decoration: none;
+}
