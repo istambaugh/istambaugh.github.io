@@ -6,3 +6,31 @@ h1 {
     text-align: center;
     color: brown;
 }
+
+.navbar {
+    list-style-type: none;
+    background-color: cornsilk;
+    padding: 0;
+    margin: 0;
+    overflow: 0;
+}
+
+ul.navbar li {
+    float: left;
+}
+
+ul.navbar li a {
+    padding: 14px 16px;
+    display: block;
+    color: darkblue;
+    text-decoration: none;
+}
+
+ul.navbar li a:hover {
+    background-color: rgb(65, 62, 62);
+    color: rgb(214, 210, 210);
+}
+
+.selected {
+    background-color: darkgray;
+}
