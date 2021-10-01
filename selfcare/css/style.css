@@ -7,6 +7,12 @@ h1 {
     color: brown;
 }
 
+h2 {
+    text-align: center;
+    color: brown;
+    padding: 14px 600px;
+}
+
 .navbar {
     list-style-type: none;
     background-color: cornsilk;
@@ -33,4 +39,16 @@ ul.navbar li a:hover {
 
 .selected {
     background-color: darkgray;
+}
+
+.text {
+    padding: 14px 300px;
+    text-align: center;
+}
+
+.image {
+    max-height: 20%;
+    max-width: 20%;
+    padding: 14px 300px;
+    text-align: center;
 }
