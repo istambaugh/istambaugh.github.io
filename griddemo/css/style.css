@@ -71,4 +71,5 @@ ul.nav a:hover {
 .sidenav {
     grid-column: 3;
     grid-row: 3 /span 3;
+    background-color: rgb(250, 141, 141);
 }
