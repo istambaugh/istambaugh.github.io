@@ -10,23 +10,41 @@ h1 {
     color: brown;
     padding: 14px 600px;
     text-transform: capitalize;
+    font-family: manofa-condensed, sans-serif;
+    font-weight: 400;
+    font-style: normal;
 }
 
 h2 {
     text-align: center;
     color: brown;
     padding: 14px 600px;
+    font-family: manofa, sans-serif;
+    font-weight: 400;
+    font-style: italic;
 }
 
 h3 {
     text-align: center;
     color: chocolate;
     padding: 14px 600px;
+    font-family: manofa-condensed, sans-serif;
+    font-weight: 400;
+    font-style: normal;
 }
 
 p {
+    font-family: manofa, sans-serif;
+    font-weight: 700;
+    font-style: normal;
     text-align: center;
     color: rgb(84, 114, 60);
+}
+
+td {
+    font-family: manofa-condensed, sans-serif;
+    font-weight: 400;
+    font-style: normal;
 }
 
 .navbar {
