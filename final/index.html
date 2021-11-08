@@ -15,9 +15,9 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/js/bootstrap.bundle.min.js"></script>
 </head>
 
-<body class="bg-light">
-    <div class="container-fluid bg-light text-dark">
-        <nav class="navbar navbar-expand-sm bg-light navbar-light">
+<body class="bg-dark">
+    <div class="container-fluid bg-dark text-light">
+        <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
             <div class="container-fluid">
                 <a class="navbar-brand" href="#"><img src="images/logo.PNG" alt="Seaggs" style="width:50px"></a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
@@ -29,7 +29,7 @@
                             <a class="nav-link active" href="index.html">Home</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link active" href="#">Products</a>
+                            <a class="nav-link active" href="products.html">Products</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link active" href="#">About</a>
@@ -38,51 +38,22 @@
                 </div>
             </div>
         </nav>
+
+        <!--background image-->
+        <div class="bg-image d-flex justify-content-center align-items-center mask-custom" style="
+         background-image: url('images/homepage1.PNG');
+         height: 100vh;">
+        </div>
+
         <!--new bootstrap item-->
-        <div class="mt-4 p-5 bg-primary text-white rounded">
+        <!-- <div class="mt-4 p-5 bg-primary text-white rounded">
             <h1>Warning: This website is not very good.</h1>
             <p>Yes, website is not very good. </p>
         </div>
+        -->
 
-
-        <div class="row">
-            <div class="col-md-4">
-
-                <p>
-                    <div class="card">
-                        <img src="images/product1.jpg" alt="Cargo Pants" style="width:100%">
-                        <h1>Cargo Work Pants</h1>
-                        <p class="price">$128.99</p>
-                        <p><button>Vintage Black </button></p>
-                    </div>
-                </p>
-                <a class="btn btn-primary" role="button" href="https://www.w3schools.com" target="_blank">HTML info</a>
-            </div>
-
-            <div class="col-md-4">
-
-                <p>
-                    <div class="card">
-                        <img src="images/product2finished.jpg" alt="T-Shirt" style="width:100%">
-                        <h1>'ETHRL' T-Shirt</h1>
-                        <p class="price">$25</p>
-                        <p><button> Washed Black</button></p>
-                    </div>
-                </p>
-                <a class="btn btn-primary bg-success" role="button" href="https://www.w3schools.com" target="_blank">HTML info 2</a>
-            </div>
-            <div class="col-md-4">
-
-                <p>
-                    <div class="card">
-                        <img src="images/product1.jpg" alt="Cargo Pants" style="width:100%">
-                        <h1>Cargo Work Pants</h1>
-                        <p class="price">$128.99</p>
-                        <p><button>Vintage Black </button></p>
-                    </div>
-                </p>
-                <a class="btn btn-primary bg-warning" role="button" href="https://www.w3schools.com" target="_blank">HTML info 3</a>
-            </div>
+        <div class="centeredbutton">
+            <a href="products.html"> <button>Enter</button></a>
         </div>
     </div>
 </body>
