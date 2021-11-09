@@ -1,49 +1,196 @@
-        .card {
-            /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); */
-            max-width: 300px;
-            margin: auto;
-            text-align: center;
-            font-family: agenda, sans-serif;
-            font-weight: 100;
-            font-style: normal;
-        }
-        
-        .price {
-            color: rgb(255, 255, 255);
-            font-size: 22px;
-            background-color: rgb(52, 58, 64);
-        }
-        
-        h1 {
-            color: rgb(255, 255, 255);
-            background-color: rgb(52, 58, 64);
-        }
-        
-        .card button {
-            border: none;
-            outline: 0;
-            padding: 5px;
-            color: rgb(0, 0, 0);
-            background-color: rgb(255, 255, 255);
-            text-align: center;
-            cursor: pointer;
-            width: 100%;
-            font-size: 18px;
-        }
-        
-        .card button:hover {
-            opacity: 0.7;
-        }
-        
-        .centeredbutton {
-            padding-top: 300px;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            height: 200px;
-        }
-        
-        .mask-custom {
-            backdrop-filter: blur(4px);
-            background-color: rgba(0, 0, 64, 0.3);
-        }
+/*color codes: 
+     pewter blue: rgb(135,160,178)
+     prussian blue: rgb(34,56,88)
+    alice blue: rgb(237,242,253)  
+*/
+
+.card {
+    /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); */
+    max-width: 400px;
+    margin: auto;
+    text-align: center;
+    font-family: work-sans, sans-serif;
+    font-weight: 100;
+    font-style: normal;
+    background-color: rgb(237, 242, 253);
+}
+
+.price {
+    color: rgb(0, 0, 0);
+    font-size: 22px;
+    background-color: rgb(237, 242, 253);
+}
+
+h1 {
+    color: rgb(255, 255, 255);
+    background-color: rgb(237, 242, 253);
+}
+
+.card button {
+    border: none;
+    outline: 0;
+    padding: 5px;
+    color: rgb(0, 0, 0);
+    background-color: rgb(237, 242, 253);
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+}
+
+.card button:hover {
+    opacity: 0.7;
+}
+
+.centeredbutton {
+    padding-top: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+}
+
+.mask-custom {
+    backdrop-filter: blur(4px);
+    background-color: rgba(0, 0, 64, 0.3);
+}
+
+.backgroundbutton {
+    background-image: url(homepage1.png);
+    background-size: cover;
+    width: 300px;
+    height: 200px;
+    font-size: 32px;
+}
+
+h1 {
+    text-align: center;
+    font-family: work-sans, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    color: #3d4246;
+    line-height: 1.5;
+}
+
+h2 {
+    text-align: left;
+    font-family: work-sans, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    color: #3d4246;
+    line-height: 1.5;
+}
+
+.container {
+    width: 200px;
+    height: 120px;
+    padding-bottom: 100px;
+}
+
+
+/* Resize images */
+
+.container img {
+    width: 100%;
+    height: auto;
+}
+
+
+/*grid demo stuff */
+
+.nav {
+    position: relative;
+    top: -50px;
+    list-style-type: none;
+    background-color: rgb(237, 242, 253);
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    font-size: 16px;
+    font-family: work-sans, sans-serif;
+    font-style: normal;
+    font-weight: 200;
+    color: #3d4246;
+    line-height: 1.5;
+    text-align: center;
+    display: inline-block;
+}
+
+ul.nav li {
+    float: left;
+}
+
+ul.nav li a {
+    display: block;
+    padding: 8px 16px;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    font-size: 20px;
+}
+
+ul.nav a:hover {
+    background-color: #555;
+    color: white;
+}
+
+.grid-container {
+    display: grid;
+    grid-gap: 10px;
+    padding: 10px;
+    font-size: 16px;
+    font-family: work-sans, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    color: #3d4246;
+    line-height: 1.5;
+}
+
+.grid-item {
+    background-color: rgb(237, 242, 253);
+    text-align: center;
+    font-size: 30px;
+    padding: 20px;
+}
+
+.navmenu {
+    grid-column: 1 / span 3;
+    grid-row: 1;
+}
+
+.main-image {
+    padding-left: 700px;
+    grid-column: 1/ span 3;
+    grid-row: 2;
+    width: 400px;
+    height: auto;
+}
+
+.main {
+    grid-column: 1 / span 3;
+    grid-row: 3;
+}
+
+.support {
+    grid-column: 1;
+    grid-row: 4;
+    background-color: rgb(237, 242, 253);
+    color: rgb(0, 0, 0);
+}
+
+.support2 {
+    grid-column: 2;
+    grid-row: 4;
+    background-color: rgb(237, 242, 253);
+    color: black;
+}
+
+.main2 {
+    grid-column: 1 / span 2;
+    grid-row: 5;
+}
+
+.sidenav {
+    grid-column: 3;
+    grid-row: 3 /span 3;
+    background-color: rgb(250, 141, 141);
+}
