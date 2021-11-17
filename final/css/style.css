@@ -36,7 +36,7 @@
 .footer {
     position: fixed;
     left: 37%;
-    bottom: 0;
+    bottom: -5%;
     width: 100%;
     background-color: cornflowerblue;
     margin: 0 auto;
